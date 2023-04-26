@@ -488,4 +488,25 @@ ul{
                 flex-direction: column;
                 align-items: center;
             }
+            /*----------------------------------------------------------------------GALERIA---------------------------------------------------*/
+            section div.ContenedorGaleria{
+                display: flex;
+                flex-direction: row;
+                width: 80%;
+                height: 500px;
+                
+                }
+                section div.ContenedorGaleria img{
+                width: 0px;
+                opacity: .8;
+                flex-grow: 1;
+                object-fit: cover;
+                transition: .5s ease;
+                }
+                section div.ContenedorGaleria img:hover{
+                width: 300px;
+                opacity: 1;
+                cursor:crosshair;
+                filter: contrast(120%);
+                }
 }
