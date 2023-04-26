@@ -32,7 +32,7 @@ ul{
         flex-direction: row;
         }
         header.imgBG{
-        background-image: url("../img/carpint.jpg");
+        background-image: url("../img/carpint.png");
         background-size: cover;
         z-index: -1;
         }
@@ -278,28 +278,28 @@ ul{
     }
 
     header{
-    grid-area: header;
-    display: flex;
-    flex-direction: row;
+        grid-area: header;
+        display: flex;
+        flex-direction: row;
     }
     header.imgBG{
-    background-image: url("../img/carpint.png");
-    background-size: cover;
-    z-index: -1;
+        background-size: cover;
+        background-image: url("../img/carpint.png");
+        z-index: -1;
     }
     nav{
-    background-color: white;
-    grid-area: nav;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+        background-color: white;
+        grid-area: nav;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     /* margin: 1%; */
     }
     nav div.imgMarcas{
-    background-image: url("../img/MarcasMelamina.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 77%;
+        background-image: url("../img/MarcasMelamina.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 77%;
     }
     nav ul.NavRow{
         display: flex;
@@ -320,44 +320,44 @@ ul{
         padding: 1.5%;
     }
     section{
-    background-color:white;
-    grid-area: seccion;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+        background-color:white;
+        grid-area: seccion;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     footer{
-    background-color: white;
-    grid-area: PieDePagina;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+        background-color: white;
+        grid-area: PieDePagina;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
     }
     header div.cardIco{
-    background: linear-gradient(to right, #8B866f, #FCD9B8);
-    margin-top: 2%;
-    margin-left: 7%;
-    width: 100px;
-    height: 150px;
-    border-radius: 0.3em;
-    display: flex;
-    flex-direction: row;
-    align-items: end;
-    justify-content: center;
+        background: linear-gradient(to right, #8B866f, #FCD9B8);
+        margin-top: 2%;
+        margin-left: 7%;
+        width: 100px;
+        height: 150px;
+        border-radius: 0.3em;
+        display: flex;
+        flex-direction: row;
+        align-items: end;
+        justify-content: center;
     }
 
     header div.cardIco span{
-    font-size: 3em;
-    height: 60px;
-    width: 80px;
+        font-size: 3em;
+        height: 60px;
+        width: 80px;
     }
     header div.fontIco{
-    width: 100px;
-    height: 150px;
-    margin-top: 2%;
-    margin-left: 2%;
+        width: 100px;
+        height: 150px;
+        margin-top: 2%;
+        margin-left: 2%;
     }
     header div.fontIco h1{
         display: flex;
@@ -370,30 +370,30 @@ ul{
         height: 140px;
     }
     section span{
-    font-family: 'Lobster', cursive;
-    font-size: 2em;
-    margin-top: 8%;
-    color:rgb(177, 164, 164);
+        font-family: 'Lobster', cursive;
+        font-size: 2em;
+        margin-top: 8%;
+        color:rgb(177, 164, 164);
     }
     footer i {
-    text-decoration: none;
-    font-size: 3em;
-    margin-top: 10%;
+        text-decoration: none;
+        font-size: 3em;
+        margin-top: 10%;
     }
     .fa-instagram {
-    color: rgb(141, 70, 135);
-    box-shadow: 14px 11px 14px -3px rgba(48,46,51,1);
-    border-radius: 1%;
+        color: rgb(141, 70, 135);
+        box-shadow: 14px 11px 14px -3px rgba(48,46,51,1);
+        border-radius: 1%;
     }
     .fa-facebook{
-    color: rgba(16, 16, 109, 0.63);
-    box-shadow: 14px 11px 14px -3px rgba(48,46,51,1);
-    border-radius: 1%;
+        color: rgba(16, 16, 109, 0.63);
+        box-shadow: 14px 11px 14px -3px rgba(48,46,51,1);
+        border-radius: 1%;
     }
     .fa-whatsapp{
-    color: rgb(61, 136, 61);
-    box-shadow: 14px 11px 14px -3px rgba(48,46,51,1);
-    border-radius: 1%;
+        color: rgb(61, 136, 61);
+        box-shadow: 14px 11px 14px -3px rgba(48,46,51,1);
+        border-radius: 1%;
     }
      /* ----------------------------------------------------------------------------  ubicacion! ---------------------------------------*/
      body div.rowsTres{
